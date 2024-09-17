@@ -3,7 +3,7 @@ import { getAuth } from 'firebase/auth';
 import {getFirestore} from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCDi8uqokUQ6vBUnaE4z66SfyhOyTxCSPc",
+  apiKey: "API_KEY",
   authDomain: "imdb-movie-clone.firebaseapp.com",
   projectId: "imdb-movie-clone",
   storageBucket: "imdb-movie-clone.appspot.com",
