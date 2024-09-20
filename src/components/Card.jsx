@@ -50,10 +50,10 @@ const Card = ({ movie }) => {
   };
 
   return (
-    <div className='relative group ml-14 md:ml-0 h-[260px] w-[240px] md:h-[400px] md:w-full rounded-lg overflow-hidden mb-4'>
+    <div className='relative group ml-10 md:ml-0 h-[320px] w-[280px] md:h-[400px] md:w-full rounded-lg overflow-hidden mb-4'>
       {/* Movie Thumbnail */}
       <img
-        className='w-full h-full object-cover rounded-lg md:transition-transform md:duration-300 md:ease-in-out md:group-hover:scale-105' 
+        className='w-full h-full object-cove rounded-lg md:transition-transform md:duration-300 md:ease-in-out md:group-hover:scale-105' 
         src={`https://image.tmdb.org/t/p/original${movie.poster_path}`}
         alt='Movie Thumbnail'
       />

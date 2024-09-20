@@ -29,14 +29,20 @@ const Wishlist = () => {
   }
 
   if (wishlist.length === 0) {
-    return <p>Your wishlist is empty!</p>;
+    return <p className='text-black font-bol text-[35px]'>Your wishlist is empty!</p>;
   }
 
   return (
-    <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 bg-[#121212] h-full'>
+    <div className='bg-[#121212] h-full'>
+ <div className='flex ml-4'>
+          <div className="h-8 ml-2 mr-2 border-l-4 rounded mt-2 border-yellow-400  md:block"></div>
+        <h1 className='text-2xl font-bold text-white mt-2 mb-6'>Your Wishlist </h1>
+        </div>
+    <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4'>
       {wishlist.map(movie => (
         <Card key={movie.id} movie={movie} />
       ))}
+    </div>
     </div>
   );
 };

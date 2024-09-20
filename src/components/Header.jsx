@@ -22,7 +22,7 @@ const Header = () => {
         }
     }, [movieData]);
 
-    if (list.length === 0) return <p className='text-white'>Loading....</p>;
+    if (list.length === 0) return <p className='text-white'>Loading.....</p>;
 
     return (
         <Splide 
@@ -53,7 +53,7 @@ const Header = () => {
                      <Link to={`/details/${movie.id}`}>
                     <div className='md:w-[80%] md:mx-28 w-full px- relative mt-2'>
                         <img 
-                            className='w-full h-[450px] object-cover md:h-[500px] md:w-[1200px]' // Set a fixed height for images
+                            className='w-full h-[450px]  md:h-[500px] md:w-[1200px]' // Set a fixed height for images
                             src={`https://image.tmdb.org/t/p/original${movie.backdrop_path}`} 
                             alt={movie.title}
                         />

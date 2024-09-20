@@ -11,6 +11,7 @@ const Home = () => {
   return (
     <div className='bg-[#121212]'>
         <Navbar/>
+        <div className='md:mt-4 mt-4'>
     <Header/>
     <Element name='upcoming'>
     <Upcoming/>
@@ -22,6 +23,7 @@ const Home = () => {
     <NowPLaying/>
     </Element>
     <Footer/>
+    </div>
     </div>
   )
 }

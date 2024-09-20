@@ -37,7 +37,7 @@ const Navbar2 = () => {
   };
 
   return (
-    <nav className='flex items-center w-full bg-[#121212] h-16 px-4 md:gap-4'>
+    <nav className='flex fixed-navbar items-center w-full bg-[#121212] h-16 px-4 md:gap-4'>
       {/* Logo */}
       <RouterLink to='/'>
         <div>

@@ -21,7 +21,7 @@ const NowPLaying = () => {
   }, [nowPlayingMovies]);
 
   if (!nowPlayingMovies || nowPlayingMovies.length === 0) {
-    return <p className='text-white'>Loading.....</p>;
+    return <p className='text-white'>Loading.....   If it takes too long to load, trying using a VPN</p>;
   }
 
   return (
