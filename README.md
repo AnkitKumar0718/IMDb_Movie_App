@@ -37,9 +37,8 @@ IMDb  is a front-end application that allows users to browse various movies, vie
 3. Go into the repository and install dependencies:
    bash
 
-$ npm install
+4. $ npm install
 
-4. Add all needed Environmental variables to .env.
 
 ## Deployment Link
 
